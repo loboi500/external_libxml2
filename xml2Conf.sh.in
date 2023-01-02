@@ -1,8 +1,3 @@
-#
-# Configuration file for using the XML library in GNOME applications
-#
-XML2_LIBDIR="@XML_LIBDIR@"
-XML2_LIBS="@XML_LIBS@ @XML_PRIVATE_LIBS@"
-XML2_INCLUDEDIR="@XML_INCLUDEDIR@"
-MODULE_VERSION="xml2-@VERSION@"
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:a54786bef9302ec3712d4d717dd59c39da229a840ea39c58c22e23cdc5d250c5
+size 210

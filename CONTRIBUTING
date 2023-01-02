@@ -1,20 +1,3 @@
-The current version of the code can be found in the GNOME Git Repository:
-
-    https://gitlab.gnome.org/GNOME/libxml2
-
-There's mirror on GitHub:
-
-    https://github.com/GNOME/libxml2
-
-Start discussions and send patches to the mailing list, or file a bug and
-add a patch as attachment.
-
-    https://mail.gnome.org/mailman/listinfo/xml
-    https://gitlab.gnome.org/GNOME/libxml2/issues
-
-Format patches with git-format-patch and use plain text attachments
-if possible.
-
-All code must conform to C89 and pass the "make check" tests. Avoid
-compiler warnings and add regression tests if possible.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e7eeb71600c1f6b52d6e228b7ac3da22d5aed3fcc4b2aef2a27efcd84b0832c
+size 592

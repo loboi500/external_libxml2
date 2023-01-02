@@ -1,26 +1,3 @@
-#ifndef TEST_OOM_LIB_H
-#define TEST_OOM_LIB_H
-
-#include <config.h>
-
-#ifdef HAVE_SYS_TYPES_H
-#include <sys/types.h>
-#endif
-
-void* test_malloc  (size_t      bytes);
-void* test_realloc (void       *memory,
-                    size_t      bytes);
-void  test_free    (void       *memory);
-char* test_strdup  (const char *str);
-
-/* returns true on success */
-typedef int (* TestMemoryFunction)  (void *data);
-
-/* returns true on success */
-int test_oom_handling (TestMemoryFunction  func,
-                       void               *data);
-
-/* get number of blocks leaked */
-int test_get_malloc_blocks_outstanding (void);
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:daf51e17ade1db5fe22bd1ab49c24ae1f63f85233d63c24d6a65a88906826a1b
+size 623

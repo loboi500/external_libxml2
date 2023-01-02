@@ -1,7 +1,3 @@
-check_PROGRAMS = gjobread
-
-AM_CPPFLAGS = -I$(top_builddir)/include -I$(top_srcdir)/include -I$(srcdir)/include
-AM_CFLAGS = $(THREAD_CFLAGS) $(Z_CFLAGS)
-LDADD = $(RDL_LIBS) $(STATIC_BINARIES) $(top_builddir)/libxml2.la $(THREAD_LIBS) $(Z_LIBS) $(ICONV_LIBS) -lm $(WIN32_EXTRA_LIBADD)
-
-gjobread_SOURCES=gjobread.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5fb3e7148bfcbdcabf891b1fa6af842e2f5e518f25421ff4e5cdb8c5b4c544b
+size 312

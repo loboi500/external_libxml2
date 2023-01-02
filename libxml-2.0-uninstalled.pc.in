@@ -1,12 +1,3 @@
-prefix=
-exec_prefix=
-libdir=${pcfiledir}
-includedir=${pcfiledir}/include
-
-
-Name: libXML
-Version: @VERSION@
-Description: libXML library version2.
-Requires:
-Libs: -L${libdir} -lxml2 @ICU_LIBS@ @THREAD_LIBS@ @Z_LIBS@ @LZMA_LIBS@ @ICONV_LIBS@ @M_LIBS@ @LIBS@
-Cflags: -I${includedir} @XML_INCLUDEDIR@ @XML_CFLAGS@
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f5d8f90eeb7ed51fca4749dc3af3c0f0b205c0b0add8d1dd5aec6ab180f4565
+size 309
